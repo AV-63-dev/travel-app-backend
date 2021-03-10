@@ -1,0 +1,98 @@
+[
+  {
+    "codeISO2": "US",
+    "capitalCoordinates": { "lat": "38.9101", "lon": "-77.0147" },
+    "coverURL": "https://gpxies.ru/team43/usa/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "United States of America",
+        "capital": "Washington",
+        "description": "The United States of America (USA), commonly known as the United States (U.S. or US) or America, is a country primarily located in North America. It consists of 50 states, a federal district, five major self-governing territories, 326 Indian reservations, and some minor possessions.[h] At 3.8 million square miles (9.8 million square kilometers), it is the world's third- or fourth-largest country by total area.[d] With a population of more than 328 million people, it is the third most populous country in the world. The national capital is Washington, D.C., and the most populous city is New York City."
+      }
+    ]
+  },
+  {
+    "codeISO2": "AU",
+    "capitalCoordinates": { "lat": "-35.293056", "lon": "149.126944" },
+    "coverURL": "https://gpxies.ru/team43/Australia/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "Australia",
+        "capital": "Canberra",
+        "description": "Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country in Oceania and the world's sixth-largest country by total area. Its population of nearly 26 million is highly urbanised and heavily concentrated on the eastern seaboard. Australia's capital is Canberra, and its largest city is Sydney. The country's other major metropolitan areas are Melbourne, Brisbane, Perth, and Adelaide. \n Indigenous Australians inhabited the continent for about 65,000 years prior to the first arrival of Dutch explorers in the early 17th century, who named it New Holland. In 1770, Australia's eastern half was claimed by Great Britain and initially settled through penal transportation to the colony of New South Wales from 26 January 1788, a date which became Australia's national day. The population grew steadily in subsequent decades, and by the time of an 1850s gold rush, most of the continent had been explored by European settlers and an additional five self-governing crown colonies established. On 1 January 1901, the six colonies federated, forming the Commonwealth of Australia. Australia has since maintained a stable liberal democratic political system that functions as a federal parliamentary constitutional monarchy, comprising six states and ten territories."
+      }
+    ]
+  },
+  {
+    "codeISO2": "DE",
+    "capitalCoordinates": { "lat": "52.52", "lon": "13.405" },
+    "coverURL": "https://gpxies.ru/team43/germany/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "Germany",
+        "capital": "Berlin",
+        "description": "Germany, officially the Federal Republic of Germany, is a country at the intersection of Central and Western Europe. It is situated between the Baltic and North seas to the north, and the Alps to the south; covering an area of 357,022 square kilometres (137,847 sq mi), with a population of over 83 million within its 16 constituent states. It borders Denmark to the north, Poland and the Czech Republic to the east, Austria and Switzerland to the south, and France, Luxembourg, Belgium, and the Netherlands to the west. Germany is the second-most populous country in Europe after Russia, as well as the most populous member state of the European Union. Its capital and largest city is Berlin, and its financial centre is Frankfurt; the largest urban area is the Ruhr."
+      }
+    ]
+  },
+  {
+    "codeISO2": "IS",
+    "capitalCoordinates": { "lat": "64.128288", "lon": "-21.827774" },
+    "coverURL": "https://gpxies.ru/team43/iceland/main.webp",
+    "info": [{
+        "lang": "en-US",
+        "name": "Iceland",
+        "capital": "Reykjavík",
+        "description": "Iceland is a Nordic island country in the North Atlantic Ocean, with a population of 356,991 and an area of 103,000 km2, making it the most sparsely populated country in Europe. The capital and largest city is Reykjavík. Reykjavík and the surrounding areas in the southwest of the country are home to over two-thirds of the population. Iceland is volcanically and geologically active. The interior consists of a plateau characterised by sand and lava fields, mountains, and glaciers, and many glacial rivers flow to the sea through the lowlands. Iceland is warmed by the Gulf Stream and has a temperate climate, despite a high latitude just outside the Arctic Circle. Its high latitude and marine influence keep summers chilly, with most of its islands having a polar climate."
+      }
+    ]
+  },
+  {
+    "codeISO2": "CN",
+    "capitalCoordinates": { "lat": "40.072498", "lon": "116.597504" },
+    "coverURL": "https://gpxies.ru/team43/china/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "China",
+        "capital": "Beijing",
+        "description": "China, officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country, with a population of around 1.4 billion. Covering approximately 9.6 million square kilometers (3.7 million mi2), it is the world's third or fourth-largest country by area. As a one-party state led by the Chinese Communist Party (CCP), the country is officially divided into 23 provinces,[m][18] five autonomous regions, four direct-controlled municipalities (Beijing, Tianjin, Shanghai, and Chongqing), and the special administrative regions of Hong Kong and Macau."
+      }
+    ]
+  },
+  {
+    "codeISO2": "IN",
+    "capitalCoordinates": { "lat": "28.704060", "lon": "77.102493" },
+    "coverURL": "https://gpxies.ru/team43/India/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "India",
+        "capital": "Delhi",
+        "description": "India , officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia."
+      }
+    ]
+  },
+  {
+    "codeISO2": "GE",
+    "capitalCoordinates": { "lat": "41.715137", "lon": "44.827095" },
+    "coverURL": "https://gpxies.ru/team43/georgia/main.jpeg",
+    "info": [{
+        "lang": "en-US",
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "description": "Georgia is a country located at the intersection of Eastern Europe and Western Asia. It is a part of the Caucasus region, bounded to the west by the Black Sea, to the north and east by Russia, to the south by Turkey and Armenia, and to the southeast by Azerbaijan. Georgia covers a territory of 69,700 square kilometres (26,911 sq mi), and its approximate population is about 3.716 million. Georgia is a unitary parliamentary republic, with the government elected through a representative democracy. Tbilisi is the country's capital and largest city."
+      }
+    ]
+  },
+  {
+    "codeISO2": "TR",
+    "capitalCoordinates": { "lat": "39.933365", "lon": "32.859741" },
+    "coverURL": "https://gpxies.ru/team43/turkey/main.jpg",
+    "info": [{
+        "lang": "en-US",
+        "name": "Turkey",
+        "capital": "Ankara",
+        "description": "Turkey , officially the Republic of Turkey, is a transcontinental country straddling Southeastern Europe and Western Asia. It is bordered on its northwest by Greece and Bulgaria; north by the Black Sea; northeast by Georgia; east by Armenia, Azerbaijan, and Iran; southeast by Iraq; south by Syria and the Mediterranean Sea; and west by the Aegean Sea. Istanbul, which straddles Europe and Asia, is the country's largest city, while Ankara is the capital. Approximately 70 to 80 percent of the country's citizens are ethnic Turks, while the largest minority are Kurds at 20 percent."
+      }
+    ]
+  }
+]
