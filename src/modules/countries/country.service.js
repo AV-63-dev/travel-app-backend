@@ -6,6 +6,7 @@ const getAll = async (lang) => {
 };
 
 const getOne = async (id, lang) => {
+  console.log(id);
   const country = await countryRepo.getOneByLang(id, lang);
   return country;
 };
