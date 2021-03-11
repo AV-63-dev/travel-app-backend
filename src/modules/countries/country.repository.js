@@ -10,14 +10,23 @@ const countryExcludedFields = { _id: 0, __v: 0, lang: 0, localizations: 0 };
 const placeExcludedFields = { _id: 0, countryId: 0, lang: 0, localizations: 0 };
 
 const getAllByLang = async (lang) => {
+  console.log('lang', lang);
   return await Country.aggregate()
-    .match({ localizations: { $elemMatch: { lang } } })
-    .unwind('localizations')
-    .match({ 'localizations.lang': lang })
+    // .match({ localizations: { $elemMatch: { lang } } })
+    // .unwind('localizations')
+    // .match({ 'localizations.lang': lang })
     .replaceRoot({
       $mergeObjects: [{ id: '$_id' }, '$localizations', '$$ROOT'],
     })
     .project(countryExcludedFields);
+  // return await Country.aggregate()
+  //   .match({ localizations: { $elemMatch: { lang } } })
+  //   .unwind('localizations')
+  //   .match({ 'localizations.lang': lang })
+  //   .replaceRoot({
+  //     $mergeObjects: [{ id: '$_id' }, '$localizations', '$$ROOT'],
+  //   })
+  //   .project(countryExcludedFields);
 };
 
 const getOneByLang = async (id, lang) => {

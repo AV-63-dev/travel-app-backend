@@ -40,6 +40,6 @@ const countrySchema = new Schema({
   info: [localeSchema],
 });
 
-const Country = model('Country', countrySchema);
+const Country = model('countries', countrySchema);
 
 module.exports = Country;
