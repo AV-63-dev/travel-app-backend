@@ -19,6 +19,7 @@ router.param(
 router.get(
   '/',
   wrap(async (req, res) => {
+    console.log(req.query);
     const lang = req.query.lang || DEFAULT_LANG;
     const data = await countryService.getAll(lang);
     res.send(data);
