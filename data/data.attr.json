@@ -10,6 +10,16 @@
         "lang": "en",
         "title": "Golden gate bridge",
         "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean."
+      },
+      {
+        "lang": "ru",
+        "title": "Мост Золотые Ворота",
+        "description": "Мост Золотые Ворота - это подвесной мост через Золотые Ворота, пролив шириной 1,6 км, соединяющий залив Сан-Франциско и Тихий океан."
+      },
+      {
+        "lang": "fr",
+        "title": "Le Golden Gate Bridge",
+        "description": "Le Golden Gate Bridge est un pont suspendu enjambant le Golden Gate, le détroit d'un mile de large (1,6 km) reliant la baie de San Francisco et l'océan Pacifique"
       }
     ]
   },
@@ -26,6 +36,16 @@
         "lang": "en",
         "title": "Empire State Building",
         "description": "The Empire State Building is a 102-story[c] Art Deco skyscraper in Midtown Manhattan in New York City, United States. It was designed by Shreve, Lamb & Harmon and built from 1930 to 1931."
+      },
+      {
+        "lang": "ru",
+        "title": "Эмпайр-стейт-билдинг",
+        "description": "Эмпайр-стейт-билдинг - 102-этажный небоскреб в стиле ар-деко в центре Манхэттена в Нью-Йорке, США. Он был спроектирован Shreve, Lamb & Harmon и построен с 1930 по 1931 год."
+      },
+      {
+        "lang": "fr",
+        "title": "L'Empire State Building",
+        "description": "L'Empire State Building est un gratte-ciel Art déco de 102 étages situé à Midtown Manhattan à New York, aux États-Unis. Il a été conçu par Shreve, Lamb & Harmon et construit de 1930 à 1931"
       }
     ]
   },
@@ -42,6 +62,16 @@
         "lang": "en",
         "title": "Central Park",
         "description": "Central Park is an urban park in New York City located between the Upper West and Upper East Sides of Manhattan. It is the fifth-largest park in the city by area, covering 843 acres (341 ha). It is the most visited urban park in the United States with an estimated 38 million visitors annually, and is the most filmed location in the world."
+      },
+      {
+        "lang": "ru",
+        "title": "Центральный парк",
+        "description": "Центральный парк - городской парк в Нью-Йорке, расположенный между Верхним Западом и Верхним Востоком Манхэттена. Это пятый по величине парк в городе по площади, занимающий 843 акра (341 га). Это самый посещаемый городской парк в Соединенных Штатах, который, по оценкам, ежегодно посещают 38 миллионов человек, и это место с наибольшим количеством снимков в мире."
+      },
+      {
+        "lang": "fr",
+        "title": "Central Park",
+        "description": "Central Park est un parc urbain de New York situé entre l'Upper West et l'Upper East Sides de Manhattan. C'est le cinquième plus grand parc de la ville en superficie, couvrant 843 acres (341 ha). C'est le parc urbain le plus visité des États-Unis avec environ 38 millions de visiteurs par an, et c'est l'endroit le plus filmé au monde."
       }
     ]
   },
@@ -58,6 +88,16 @@
         "lang": "en",
         "title": "Niagara Falls",
         "description": "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, also known as Canadian Falls, which straddles the international border of the two countries. The smaller American Falls and Bridal Veil Falls lie within the United States. Bridal Veil Falls is separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York."
+      },
+      {
+        "lang": "ru",
+        "title": "Ниагарский водопад",
+        "description": "Ниагарский водопад - это группа из трех водопадов в южной части Ниагарского ущелья, охватывающая границу между провинцией Онтарио в Канаде и штатом Нью-Йорк в США. Самый большой из трех - водопад Подкова, также известный как Канадский водопад, находится на международной границе двух стран. Меньшие водопады Америки и Фата невесты находятся на территории Соединенных Штатов. Водопад «Фата невесты» отделен от водопада «Подкова» Козьим островом и от Американского водопада островом Луна, причем оба острова расположены в Нью-Йорке."
+      },
+      {
+        "lang": "fr",
+        "title": "Les chutes du Niagara",
+        "description": "Les chutes du Niagara sont un groupe de trois chutes d'eau à l'extrémité sud de la gorge du Niagara, enjambant la frontière entre la province de l'Ontario au Canada et l'État de New York aux États-Unis. La plus grande des trois est Horseshoe Falls, également connue sous le nom de Canadian Falls, qui chevauche la frontière internationale des deux pays. Les plus petites chutes américaines et Bridal Veil Falls se trouvent aux États-Unis. Bridal Veil Falls est séparé de Horseshoe Falls par Goat Island et d'American Falls par Luna Island, les deux îles étant situées à New York."
       }
     ]
   },
@@ -72,6 +112,16 @@
         "lang": "en",
         "title": "Grand Canyon",
         "description": "The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters)."
+      },
+      {
+        "lang": "ru",
+        "title": "Гранд-Каньон",
+        "description": "Гранд-Каньон - это каньон с крутыми склонами, вырезанный рекой Колорадо в Аризоне, США. Гранд-Каньон составляет 277 миль (446 км) в длину, до 18 миль (29 км) в ширину и достигает глубины более мили (6093 футов или 1857 метров)."
+      },
+      {
+        "lang": "fr",
+        "title": "Le Grand Canyon",
+        "description": "Le Grand Canyon est un canyon aux parois escarpées creusé par le fleuve Colorado en Arizona, aux États-Unis. Le Grand Canyon mesure 446 km de long, 29 km de large et atteint une profondeur de plus d'un mille (6 093 pieds ou 1 857 mètres)."
       }
     ]
   },
@@ -86,6 +136,16 @@
         "lang": "en",
         "title": "Monument Valley",
         "description": "Monument Valley  is a region of the Colorado Plateau characterized by a cluster of vast sandstone buttes, the largest reaching 1,000 ft (300 m) above the valley floor. It is located on the Arizona–Utah state line, near the Four Corners area. The valley lies within the territory of the Navajo Nation Reservation and is accessible from U.S. Highway 163. \n Monument Valley has been featured in many forms of media since the 1930s. Director John Ford used the location for a number of his best-known films and thus, in the words of critic Keith Phipps, \"its five square miles [13 square kilometers] have defined what decades of moviegoers think of when they imagine the American West.\""
+      },
+      {
+        "lang": "ru",
+        "title": "Долина монументов",
+        "description": "Долина монументов - это регион плато Колорадо, характеризующийся скоплением обширных песчаниковых холмов, самая большая из которых достигает 300 м над дном долины. Он расположен на границе штатов Аризона и Юта, недалеко от района Четыре угла. Долина находится на территории резервации навахо, и до нее можно добраться по шоссе № 163. \n Долина монументов освещалась во многих средствах массовой информации с 1930-х годов. Режиссер Джон Форд использовал это место для съемок ряда своих самых известных фильмов и, таким образом, по словам критика Кита Фиппса, «пять квадратных миль [13 квадратных километров] определили то, о чем десятилетия думают кинозрители, когда они представляют себе американца. Запад.\""
+      },
+      {
+        "lang": "fr",
+        "title": "Monument Valley",
+        "description": "Monument Valley est une région du plateau du Colorado caractérisée par un groupe de vastes buttes de grès, la plus grande atteignant 300 m au-dessus du fond de la vallée. Il est situé sur la frontière entre l'Arizona et l'Utah, près de la région de Four Corners. La vallée se trouve sur le territoire de la réserve de la nation Navajo et est accessible depuis la route américaine 163. \n Monument Valley a été présenté dans de nombreuses formes de médias depuis les années 1930. Le réalisateur John Ford a utilisé le lieu pour un certain nombre de ses films les plus connus et ainsi, selon les mots du critique Keith Phipps, «ses 13 kilomètres carrés ont défini ce à quoi des décennies de cinéphiles pensent quand ils imaginent l'Américain. Ouest.\""
       }
     ]
   },
@@ -100,6 +160,16 @@
         "lang": "en",
         "title": "The Solomon R. Guggenheim Museum",
         "description": "The Solomon R. Guggenheim Museum, often referred to as The Guggenheim, is an art museum located at 1071 Fifth Avenue on the corner of East 89th Street in the Upper East Side neighborhood of Manhattan, New York City. It is the permanent home of a continuously expanding collection of Impressionist, Post-Impressionist, early Modern, and contemporary art and also features special exhibitions throughout the year. The museum was established by the Solomon R. Guggenheim Foundation in 1939 as the Museum of Non-Objective Painting, under the guidance of its first director, Hilla von Rebay. It adopted its current name in 1952, three years after the death of its founder Solomon R. Guggenheim."
+      },
+      {
+        "lang": "ru",
+        "title": "Музей Соломона Р. Гуггенхайма",
+        "description": "Музей Соломона Р. Гуггенхайма, часто называемый Гуггенхаймом, - это художественный музей, расположенный на Пятой авеню 1071 на углу 89-й Ист-стрит в районе Верхний Ист-Сайд на Манхэттене, Нью-Йорк. Это постоянный дом для постоянно расширяющейся коллекции импрессионистов, постимпрессионистов, раннего модерна и современного искусства, а также здесь проводятся специальные выставки в течение года. Музей был основан Фондом Соломона Р. Гуггенхайма в 1939 году как Музей беспредметной живописи под руководством его первого директора Хиллы фон Ребай. Свое нынешнее название он получил в 1952 году, через три года после смерти своего основателя Соломона Р. Гуггенхайма."
+      },
+      {
+        "lang": "fr",
+        "title": "Le Solomon R. Guggenheim Museum",
+        "description": "Le Solomon R. Guggenheim Museum, souvent appelé The Guggenheim, est un musée d'art situé au 1071 Fifth Avenue à l'angle de East 89th Street dans le quartier Upper East Side de Manhattan, New York City. C'est la maison permanente d'une collection en constante expansion d'art impressionniste, postimpressionniste, moderne et contemporain et propose également des expositions spéciales tout au long de l'année. Le musée a été créé par la Fondation Solomon R. Guggenheim en 1939 en tant que Musée de la peinture non objective, sous la direction de sa première directrice, Hilla von Rebay. Elle adopte son nom actuel en 1952, trois ans après la mort de son fondateur Solomon R. Guggenheim."
       }
     ]
   },
@@ -114,6 +184,16 @@
         "lang": "en",
         "title": "Everglades National Park",
         "description": "Everglades National Park protects an unparalleled landscape that provides important habitat for numerous rare and endangered species like the manatee,  American crocodile, and the elusive Florida panther. \n An international treasure as well -  a World Heritage Site, International Biosphere Reserve, a Wetland of International Importance, and a specially protected area under the Cartagena Treaty"
+      },
+      {
+        "lang": "ru",
+        "title": "Национальный парк Эверглейдс",
+        "description": "Национальный парк Эверглейдс защищает беспрецедентный ландшафт, который обеспечивает важную среду обитания для множества редких и находящихся под угрозой исчезновения видов, таких как ламантин, американский крокодил и неуловимая флоридская пантера. \n А также международное сокровище - объект всемирного наследия, международный биосферный заповедник, водно-болотные угодья международного значения и особо охраняемая территория в соответствии с Картахенским договором."
+      },
+      {
+        "lang": "fr",
+        "title": "Le parc national des Everglades",
+        "description": "Le parc national des Everglades protège un paysage sans précédent qui fournit un habitat important à de nombreuses espèces rares et en voie de disparition comme le lamantin, le crocodile américain et l'insaisissable panthère de Floride. \n Un trésor international également - un site du patrimoine mondial, une réserve de biosphère internationale, une zone humide d'importance internationale et une zone spécialement protégée en vertu du Traité de Carthagène"
       }
     ]
   },
@@ -128,6 +208,16 @@
         "lang": "en",
         "title": "Badlands National Park",
         "description": "The rugged beauty of the Badlands draws visitors from around the world. These striking geologic deposits contain one of the world’s richest fossil beds. Ancient horses and rhinos once roamed here. The park’s 244,000 acres protect an expanse of mixed-grass prairie where bison, bighorn sheep, prairie dogs, and black-footed ferrets live today."
+      },
+      {
+        "lang": "ru",
+        "title": "Бэдланд парк",
+        "description": "Суровая красота Бесплодных земель привлекает посетителей со всего мира. Эти поразительные геологические месторождения содержат одни из самых богатых залежей ископаемых в мире. Когда-то здесь бродили древние лошади и носороги. 244 000 акров парка защищают просторы прерий со смешанной травой, где сегодня живут бизоны, снежные бараны, луговые собачки и черноногие хорьки."
+      },
+      {
+        "lang": "fr",
+        "title": "Badlands National Park",
+        "description": "La beauté sauvage des Badlands attire des visiteurs du monde entier. Ces superbes gisements géologiques contiennent l’un des plus riches gisements de fossiles du monde. Des chevaux et des rhinocéros antiques ont erré ici. Les 244 000 acres du parc protègent une étendue de prairie mixte où vivent aujourd'hui des bisons, des mouflons d'Amérique, des chiens de prairie et des furets à pattes noires.."
       }
     ]
   },
@@ -142,6 +232,16 @@
         "lang": "en",
         "title": "Devil's Tower",
         "description": "The Tower is an astounding geologic feature that protrudes out of the prairie surrounding the Black Hills. It is considered sacred by Northern Plains Indians and indigenous people. Hundreds of parallel cracks make it one of the finest crack climbing areas in North America. Devils Tower entices us to learn more, explore more and define our place in the natural and cultural world"
+      },
+      {
+        "lang": "ru",
+        "title": "Башня Дьявола",
+        "description": "Башня - это поразительное геологическое сооружение, которое выступает из прерий, окружающих Черные холмы. Он считается священным у индейцев и коренных жителей Северных равнин. Сотни параллельных трещин делают его одним из лучших мест для лазания по трещинам в Северной Америке. Башня Дьявола побуждает нас узнавать больше, исследовать больше и определять свое место в мире природы и культуры."
+      },
+      {
+        "lang": "fr",
+        "title": "Le Devils Tour",
+        "description": "La tour est une caractéristique géologique étonnante qui dépasse de la prairie entourant les Black Hills. Il est considéré comme sacré par les Indiens des plaines du Nord et les peuples autochtones. Des centaines de fissures parallèles en font l'une des plus belles zones d'escalade de fissures en Amérique du Nord. Devils Tower nous incite à en savoir plus, à explorer davantage et à définir notre place dans le monde naturel et culturel"
       }
     ]
   },
@@ -156,6 +256,16 @@
         "lang": "en",
         "title": "Redwood",
         "description": "Most people know Redwood as home to the tallest trees on Earth. But the parks also protect vast prairies, oak woodlands, wild riverways, and nearly 40 miles of rugged coastline. People have lived in this verdant landscape since time immemorial. Together, the National Park Service and California State Parks are managing and restoring these lands for the inspiration, enjoyment, and education of all."
+      },
+      {
+        "lang": "ru",
+        "title": "Редвуд",
+        "description": "Большинство людей знает Редвуд как дом самых высоких деревьев на Земле. Но парки также защищают обширные прерии, дубовые леса, дикие реки и почти 40 миль изрезанной береговой линии. Люди жили в этом зеленом пейзаже с незапамятных времен. Вместе Служба национальных парков и парки штата Калифорния управляют этими землями и восстанавливают их для вдохновения, удовольствия и образования всех."
+      },
+      {
+        "lang": "fr",
+        "title": "Redwood",
+        "description": "La plupart des gens savent que Redwood abrite les arbres les plus hauts de la planète. Mais les parcs protègent également de vastes prairies, des forêts de chênes, des cours d'eau sauvages et près de 40 miles de côtes accidentées. Les gens vivent dans ce paysage verdoyant depuis des temps immémoriaux. Ensemble, le National Park Service et les California State Parks gèrent et restaurent ces terres pour l'inspiration, le plaisir et l'éducation de tous."
       }
     ]
   },
@@ -170,6 +280,16 @@
         "lang": "en",
         "title": "Sydney Opera House",
         "description": "Mention \"Sydney, Australia\" and most people think of the Opera House. Shaped like huge shells or billowing sails, this famous building on Sydney's Bennelong Point graces the list of UNESCO World Heritage Sites and is one of the world's great architectural icons. The location is stunning. Water surrounds the structure on three sides, and the Royal Botanic Gardens border it to the south."
+      },
+      {
+        "lang": "ru",
+        "title": "Сиднейский оперный театр",
+        "description": "Упомянув \"Сидней, Австралия \", большинство людей думает об Оперном театре. Это знаменитое здание в форме огромных раковин или вздымающихся парусов на мысе Беннелонг в Сиднее внесено в список всемирного наследия ЮНЕСКО и является одной из величайших архитектурных икон мира. Расположение потрясающее. Вода окружает сооружение с трех сторон, а с юга его граничат с Королевскими ботаническими садами."
+      },
+      {
+        "lang": "fr",
+        "title": "Opéra de Sydney",
+        "description": "Mentionnez «Sydney, Australie» et la plupart des gens pensent à l'Opéra. En forme d'énormes coquillages ou de voiles gonflées, ce célèbre bâtiment de Bennelong Point à Sydney figure sur la liste des sites du patrimoine mondial de l'UNESCO et est l'une des grandes icônes architecturales du monde. L'emplacement est magnifique. L'eau entoure la structure sur trois côtés et les jardins botaniques royaux la bordent au sud."
       }
     ]
   },
