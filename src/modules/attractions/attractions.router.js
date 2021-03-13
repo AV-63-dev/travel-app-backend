@@ -6,7 +6,7 @@ const { DEFAULT_LANG } = require('../../common/config');
 const { ENTITY_NAME } = require('./constants');
 
 const router = express.Router();
-console.log('2222');
+
 router.param(
   'id',
   wrap(async (req, res, next) => {
@@ -24,7 +24,5 @@ router.get(
     res.send(data);
   })
 );
-
-
 
 module.exports = router;
