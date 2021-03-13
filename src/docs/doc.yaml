@@ -32,14 +32,14 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Country'
-  /countries/{countryId}:
+  /countries/{codeISO2}:
     get:
       tags:
         - countries
-      summary: country details by id
+      summary: country details by codeISO2
       parameters:
         - in: path
-          name: countryId
+          name: codeISO2
           required: true
           schema:
             type: string
@@ -52,7 +52,7 @@ paths:
             type: string
       responses:
         '200':
-          description: country and array of places related to her
+          description: country and array of attractions related to her
           content:
             application/json:
               schema:
@@ -65,9 +65,9 @@ paths:
                         items:
                           type: object
                           properties:
-                            photoUrl:
+                            coverURL:
                               type: string
-                            localizations:
+                            info:
                                 type: array
                                 items:
                                   type: object
