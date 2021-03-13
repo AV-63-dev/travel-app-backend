@@ -1,17 +1,17 @@
 const express = require('express');
 const wrap = require('../../common/errors/async-error-wrapper');
 const countryService = require('./country.service');
-const validateId = require('../../common/validation/objectID.validation');
+// const validateId = require('../../common/validation/objectID.validation');
 const { DEFAULT_LANG } = require('../../common/config');
-const { ENTITY_NAME } = require('./constants');
+// const { ENTITY_NAME } = require('./constants');
 
 const router = express.Router();
 
 router.param(
-  'id',
+  'codeISO2',
   wrap(async (req, res, next) => {
-    const { id } = req.params;
-    validateId(id, ENTITY_NAME);
+    // const { id } = req.params;
+    // validateId(id, ENTITY_NAME);
     next();
   })
 );
@@ -26,11 +26,11 @@ router.get(
 );
 
 router.get(
-  '/:id',
+  '/:codeISO2',
   wrap(async (req, res) => {
     const lang = req.query.lang || DEFAULT_LANG;
-    const { id } = req.params;
-    const data = await countryService.getOne(id, lang);
+    const { codeISO2 } = req.params;
+    const data = await countryService.getOne(codeISO2, lang);
     res.json(data);
   })
 );
