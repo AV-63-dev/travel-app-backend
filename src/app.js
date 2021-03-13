@@ -25,10 +25,10 @@ app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 // Routers
 const countryRouter = require('./modules/countries/country.router');
-//const attractionRouter = require('./modules/countries/attractions.router');
+const attractionRouter = require('./modules/attractions/attractions.router');
 
 app.use('/countries', countryRouter);
-// app.use('/attraction', attractionRouter);
+app.use('/attraction', attractionRouter);
 
 app.use((req, res) => {
   res.status(StatusCodes.NOT_IMPLEMENTED).send(ReasonPhrases.NOT_IMPLEMENTED);
