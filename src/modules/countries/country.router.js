@@ -7,7 +7,6 @@ const { ENTITY_NAME } = require('./constants');
 
 const router = express.Router();
 
-
 router.param(
   'id',
   wrap(async (req, res, next) => {

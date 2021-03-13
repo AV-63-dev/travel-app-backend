@@ -5,8 +5,6 @@ const getAll = async (lang) => {
   return attractions;
 };
 
-
-
 module.exports = {
-  getAll
+  getAll,
 };
