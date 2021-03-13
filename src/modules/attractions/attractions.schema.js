@@ -1,18 +1,5 @@
 const { Schema, model } = require('mongoose');
-/*{
-  "countryCodeISO2": "US",
-  "countryId": "",
-  "imageURL": "https://gpxies.ru/team43/usa/attractions/1_Golden-Gate-Bridge.jpg",
-  "rating": "0",
-  "votes": [""],
-  "info": [
-    {
-      "lang": "en",
-      "title": "Golden gate bridge",
-      "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean."
-    }
-  ]
-}*/
+
 const attractionsLocaleSchema = new Schema({
   _id: false,
   lang: {
@@ -53,6 +40,6 @@ const attractionsSchema = new Schema({
   info: [attractionsLocaleSchema],
 });
 
-const Attractions = model('Place', attractionsSchema);
+const Attractions = model('attractions', attractionsSchema);
 
 module.exports = Attractions;
