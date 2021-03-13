@@ -1,24 +1,21 @@
-const Country = require('./country.schema');
+const Attractions = require('./attractions.schema');
 const { NotFoundError } = require('../../common/errors/errors-list');
 const { ENTITY_NAME } = require('./constants');
- const {
-   COLLECTION_NAME: PLACE_COLLECTION_NAME,
-} = require('../attractions/constants');
-const { Types } = require('mongoose');
 
-const countryExcludedFields = { _id: 0, __v: 0, lang: 0, localizations: 0 };
- const attractionExcludedFields = { _id: 0, countryId: 0, lang: 0, localizations: 0 };
+
+const attractionsExcludedFields = { _id: 0, __v: 0, lang: 0, localizations: 0 };
+// const placeExcludedFields = { _id: 0, countryId: 0, lang: 0, localizations: 0 };
 
 const getAllByLang = async (lang) => {
   console.log('lang', lang);
-  return await Country.aggregate()
+  return await Attractions.aggregate()
     // .match({ localizations: { $elemMatch: { lang } } })
     // .unwind('localizations')
     // .match({ 'localizations.lang': lang })
     .replaceRoot({
       $mergeObjects: [{ id: '$_id' }, '$localizations', '$$ROOT'],
     })
-    .project(countryExcludedFields);
+    .project(attractionsExcludedFields);
   // return await Country.aggregate()
   //   .match({ localizations: { $elemMatch: { lang } } })
   //   .unwind('localizations')
@@ -30,31 +27,31 @@ const getAllByLang = async (lang) => {
 };
 
 const getOneByLang = async (/*id, lang*/) => {
-  const data = await Country.aggregate()
+  const data = await Attractions.aggregate()
     // .match({ _id: Types.ObjectId(id) })
     // .unwind('localizations')
     // .match({ 'localizations.lang': lang })
     .replaceRoot({
       $mergeObjects: [{ id: '$_id' }, '$localizations', '$$ROOT'],
     })
-    .project(countryExcludedFields)
-   /*.lookup({
-    from: PLACE_COLLECTION_NAME,
-   pipeline: [
-      {
-       $match: { countryId: Types.ObjectId(id) },
-       },
-     { $unwind: '$localizations' },
-      {
-        $match: { 'localizations.lang': lang },
-       },
-      {
-        $replaceWith: { $mergeObjects: ['$localizations', '$$ROOT'] },
-      },
-     { $project: attractionExcludedFields },
-     ],
-     as: 'attractions',
-   });*/
+    .project(attractionsExcludedFields);
+  // .lookup({
+  //   from: PLACE_COLLECTION_NAME,
+  //   pipeline: [
+  //     {
+  //       $match: { countryId: Types.ObjectId(id) },
+  //     },
+  //     { $unwind: '$localizations' },
+  //     {
+  //       $match: { 'localizations.lang': lang },
+  //     },
+  //     {
+  //       $replaceWith: { $mergeObjects: ['$localizations', '$$ROOT'] },
+  //     },
+  //     { $project: placeExcludedFields },
+  //   ],
+  //   as: 'places',
+  // });
 
   const country = data[0];
   if (country) {
