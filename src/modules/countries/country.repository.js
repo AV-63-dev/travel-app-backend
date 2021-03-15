@@ -15,6 +15,8 @@ const countryExcludedFields = {
   capitalCoordinates: 0,
   videoURL: 0,
   info: 0,
+  timeZone: 0,
+  currency: 0,
 };
 const countryExcludedFieldsForOne = {
   _id: 0,
