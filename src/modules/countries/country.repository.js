@@ -6,7 +6,15 @@ const { ENTITY_NAME } = require('./constants');
 // } = require('../attractions/constants');
 // const { Types } = require('mongoose');
 
-const countryExcludedFields = { _id: 0, __v: 0, lang: 0 };
+const countryExcludedFields = {
+  _id: 0,
+  __v: 0,
+  lang: 0,
+  description: 0,
+  capitalCoordinates: 0,
+  videoURL: 0,
+  info: 0,
+};
 const attractionExcludedFields = {
   _id: 0,
   countryId: 0,
