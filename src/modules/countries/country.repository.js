@@ -8,6 +8,7 @@ const { ENTITY_NAME } = require('./constants');
 
 const countryExcludedFields = {
   _id: 0,
+  id: 0,
   __v: 0,
   lang: 0,
   description: 0,
