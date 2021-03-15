@@ -16,15 +16,22 @@ const countryExcludedFields = {
   videoURL: 0,
   info: 0,
 };
+const countryExcludedFieldsForOne = {
+  _id: 0,
+  id: 0,
+  __v: 0,
+  lang: 0,
+  info: 0,
+};
 const attractionExcludedFields = {
   _id: 0,
   countryId: 0,
   lang: 0,
   info: 0,
+  countryCodeISO2: 0,
 };
 
 const getAllByLang = async (lang) => {
-  console.log('lang', lang);
   return await Country.aggregate()
     .match({ info: { $elemMatch: { lang } } })
     .unwind('info')
@@ -43,7 +50,7 @@ const getOneByLang = async (codeISO2, lang) => {
     .replaceRoot({
       $mergeObjects: [{ id: '$_id' }, '$info', '$$ROOT'],
     })
-    .project(countryExcludedFields)
+    .project(countryExcludedFieldsForOne)
     .lookup({
       from: 'attractions',
       // from: ATTRACTION_COLLECTION_NAME,
