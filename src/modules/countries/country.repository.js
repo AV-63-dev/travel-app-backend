@@ -19,7 +19,6 @@ const countryExcludedFields = {
   currency: 0,
 };
 const countryExcludedFieldsForOne = {
-  _id: 0,
   id: 0,
   __v: 0,
   lang: 0,
