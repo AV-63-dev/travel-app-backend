@@ -5,6 +5,17 @@ const getAll = async (lang) => {
   return attractions;
 };
 
+const setRating = async (changedAttrId, changedAttrRating, userEmail) => {
+  console.log(changedAttrId, changedAttrRating, userEmail);
+  const attraction = await attractionsRepo.setRating(
+    changedAttrId,
+    changedAttrRating,
+    userEmail
+  );
+  return attraction;
+};
+
 module.exports = {
   getAll,
+  setRating,
 };

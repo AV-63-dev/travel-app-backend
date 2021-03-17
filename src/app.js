@@ -28,7 +28,7 @@ const countryRouter = require('./modules/countries/country.router');
 const attractionRouter = require('./modules/attractions/attractions.router');
 
 app.use('/countries', countryRouter);
-app.use('/attraction', attractionRouter);
+app.use('/attractions', attractionRouter);
 
 app.use((req, res) => {
   res.status(StatusCodes.NOT_IMPLEMENTED).send(ReasonPhrases.NOT_IMPLEMENTED);

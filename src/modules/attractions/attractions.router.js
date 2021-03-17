@@ -25,4 +25,18 @@ router.get(
   })
 );
 
+router.post(
+  '/like',
+  wrap(async (req, res) => {
+    console.log(req.body);
+    const { changedAttrId, changedAttrRating, userEmail } = req.body;
+    const data = await attractionsService.setRating(
+      changedAttrId,
+      changedAttrRating,
+      userEmail
+    );
+    res.send(data);
+  })
+);
+
 module.exports = router;
