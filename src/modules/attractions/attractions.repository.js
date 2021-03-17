@@ -2,7 +2,6 @@ const Attractions = require('./attractions.schema');
 const { NotFoundError } = require('../../common/errors/errors-list');
 const { ENTITY_NAME } = require('./constants');
 
-
 const attractionsExcludedFields = { _id: 0, __v: 0, lang: 0, localizations: 0 };
 // const placeExcludedFields = { _id: 0, countryId: 0, lang: 0, localizations: 0 };
 

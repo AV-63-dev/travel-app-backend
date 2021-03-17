@@ -26,7 +26,6 @@ const countryExcludedFieldsForOne = {
   info: 0,
 };
 const attractionExcludedFields = {
-  _id: 0,
   countryId: 0,
   lang: 0,
   info: 0,
